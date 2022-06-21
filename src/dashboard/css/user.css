@@ -1,0 +1,38 @@
+.user_main_container {
+  display: flex;
+  margin: 20px 0;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.user_img_container {
+  display: flex;
+  align-items: center;
+}
+
+.user_img {
+  border-radius: 50%;
+}
+
+.user_info_container {
+  background-color: var(--blue);
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.user_info_container > h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.user_username {
+  color: var(--red);
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .user_main_container {
+    width: 100%;
+  }
+}

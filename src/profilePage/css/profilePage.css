@@ -1,0 +1,27 @@
+.profile_img {
+  border-radius: 50%;
+}
+
+.profile_img_container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile_section {
+  background: var(--yellow);
+}
+
+.profile_section_key {
+  width: 400px;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.profile_section_key > span {
+  font-weight: normal;
+}
+
+/* .profile_section_info {
+
+  flex-wrap: wrap;
+} */

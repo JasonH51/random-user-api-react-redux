@@ -1,0 +1,22 @@
+.modal_user_container {
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.modal_user_content_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.modal_user_full_name {
+  padding: 20px;
+  margin-left: 20px;
+  background-color: var(--blue);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.modal_user_img {
+  border-radius: 50%;
+}

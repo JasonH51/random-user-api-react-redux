@@ -1,0 +1,9 @@
+.dashboard_users_list_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.activePage {
+  background-color: black !important;
+}
